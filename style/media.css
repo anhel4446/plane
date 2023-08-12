@@ -1,0 +1,158 @@
+@media (max-width: 1110px) {
+    .nav .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .tip .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .tip_midle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        
+    }
+
+    .tip_p_b {
+        margin-bottom: 15px;
+    }
+
+    .jet1 {
+        width: 50%;
+    }
+
+    .Specification {
+        margin-top: 150px;
+    }
+
+    .spc_plane {
+        display: none;
+    }
+
+    .luxury .container {
+        flex-wrap: wrap;
+        
+        align-items: center;
+    }
+
+    .enjoy .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .enjoy_item:hover {
+        background: #656293;
+        transform: scale(1.1);
+        margin-top: 0;
+    }
+
+    
+}
+
+@media(max-width: 720px) {
+    .tip_midle {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        
+    }
+
+  .header__list {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+    .header__intro_right {
+        width: 50%;
+    }
+
+    .Specification .container {
+        flex-direction: column;
+    }
+
+    .footer_plane {
+       width: 100%;
+    }
+
+    .header__intro-h {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 576px){
+    .header__intro-h {
+        font-size: 30px;
+    }
+
+    .header__intro_right {
+        width: 50%;
+        height: 300px;
+        
+    }
+
+    .enjoy_item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tip_item_dp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .private {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Business {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jet1 {
+        width: 100%;
+    }
+
+    .footer_text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .luxury .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .en_item_text,
+    .en_item_bt
+    {
+        font-size: 16px;
+    }
+
+    .en_item_bt {
+        
+        width: 90%;
+    }
+    .enjoy_item:hover {
+        background: #656293;
+        transform: scale(0.9);
+        margin-top: 0;
+    }
+}
